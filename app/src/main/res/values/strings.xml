@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestForOneTwoTrip</string>
+    <string name="btnFind">Find</string>
+    <string name="btnLoad">Load</string>
+</resources>
