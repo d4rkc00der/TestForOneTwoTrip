@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
             if(!isFound){
-                System.out.println("Impossible");
+                result = "Impossible";
                 break;
             }
 
@@ -66,9 +66,9 @@ public class MainActivity extends AppCompatActivity {
 
         timeStop = System.currentTimeMillis();
         System.out.println((timeStop-timeStart) + "ms");
-        if(isFound) {
+
             tvOutput.setText(result);
-        }
+
     }
 
     public String findIndex(int lineIndex){
